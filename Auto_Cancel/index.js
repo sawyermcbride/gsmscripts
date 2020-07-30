@@ -1,11 +1,11 @@
-// chargebee API KEY live_G8Gfz11MVRviIWiigKBhsYQR606MQAiq
+// chargebee API KEY 
 // agile rest api key: e85jkrcgjar255e5mqc6ch3i5r
 
 const chargebee = require('chargebee');
 const moment = require('moment');
 
 chargebee.configure({site : "growthpr", 
-  api_key : "live_G8Gfz11MVRviIWiigKBhsYQR606MQAiq"});
+  api_key : ""});
 
   console.log(moment().add(1, 'd').startOf('day').toString())
   console.log(moment().add(2, 'd').startOf('day').toString())
